@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link href="//gauge.org/assets/stylesheets/site.css" rel="stylesheet" />
+		<link rel="shortcut icon" type="image/png" href="https://gauge.org/assets/images/favicons/favicon.ico" />
+		<title>Gauge Downloads</title>
+	</head>
+
+	<body style="margin:2em; max-width: 42em;">
+		<img src="/images/logo.svg" alt="Gauge logo" style="width:175px;"/>
+		<h1>
+			Downloads
+		</h1>
+		<p>
+		This site is used by Gauge to get download metadata and check updates for plugins, templates and
+		Gauge executable.
+		</p>
+		</p>
+		These URLs are used within Gauge for downloading updates
+		</p>
+		<hr/>
+		<a href="https://gauge.org/plugins/">https://downloads.gauge.org/plugin</a>
+		<p>
+		Used by Gauge to get the metadata of plugins.
+		<code>https://downloads.gauge.org/plugin/{plugin_name}</code>
+		gives the metadata for the plugin.
+		</p>
+		<hr/>
+		<a href="https://downloads.gauge.org/templates">https://downloads.gauge.org/templates</a>
+		<p>
+		Used by Gauge to get the metadata of templates. It returns the metada in JSON format
+		<code>https://downloads.gauge.org/templates/{template.zip}</code> downloads the sample Gauge
+		project for given template in zip format.
+		</p>
+		<hr/>
+		<a href="https://downloads.gauge.org/gauge">https://downloads.gauge.org/gauge</a>
+		<p>Used by Gauge to get the latest release info for Gauge.</p>
+		<hr/>
+		<a href="https://downloads.gauge.org/stable">https://downloads.gauge.org/stable</a>
+		<p>
+		It returns a shell script which can be used to install Gauge using <code>curl</code>
+		 or<code> wget</code>.
+		</p>
+	</body>
+
+</html>
