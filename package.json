@@ -4,7 +4,7 @@
   "description": "Download proxy for Gauge",
   "main": "index.js",
   "scripts": {
-    "server": "netlify-lambda serve src/lambda"
+    "serve": "netlify-lambda install src/lambda; netlify-lambda serve src/lambda"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zabil/downloads.gauge.org#readme",
   "dependencies": {
-    "netlify-lambda": "^1.6.3"
+    "netlify-lambda": "^1.6.3",
+    "node-fetch": "^2.6.0"
   }
 }

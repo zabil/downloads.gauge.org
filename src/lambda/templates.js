@@ -1,11 +1,11 @@
+import fetch from "node-fetch";
+
 exports.handler = function(event, context, callback) {
 
-  exp = new RegExp(/([a-z\d]+)(\/*|)$/, "i");
-  template = exp.exec(event.path)[0];
-  // path = /([a-z\d]+)(\/*|)$/.exec(event.path)
+  const template = /([a-z\d]+)(\/*|)$/.exec(event.path)[0];
 
   callback(null, {
-    statusCode: 200,
-    body: template
+    statusCode: 301,
+    headers: { "Location": `https://templates.gauge.org/${template}.zip` }
   });
 };
