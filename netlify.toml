@@ -1,3 +1,7 @@
+[[redirects]]
+  from = "/templates/*"
+  to = "/.netlify/function/templates/:splat"
+  status = 200
 [build]
   command = "npm run build"
   functions = "rules/"
