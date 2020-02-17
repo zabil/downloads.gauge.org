@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/zabil/downloads.gauge.org#readme",
   "dependencies": {
+    "encoding": "^0.1.12",
     "netlify-lambda": "^1.6.3",
     "node-fetch": "^2.6.0"
   }
