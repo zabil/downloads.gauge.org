@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/plugin/*"
-  to = "https://cdn.jsdelivr.net/gh/getgauge/gauge-repository@master/:splat-install.json
+  to = "https://cdn.jsdelivr.net/gh/getgauge/gauge-repository@master/:splat-install.json"
   status = 200
 [build]
   command = "npm run build"
