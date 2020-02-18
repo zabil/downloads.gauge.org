@@ -2,3 +2,11 @@
   from = "/plugin/*"
   to = "https://cdn.jsdelivr.net/gh/getgauge/gauge-repository@master/:splat-install.json"
   status = 200
+[[redirects]]
+  from = "/templates/*"
+  to = "https://templates.gauge.org/:splat.zip"
+  status = 200
+[[redirects]]
+  from = "/stable"
+  to = "https://cdn.jsdelivr.net/gh/getgauge/gauge@master/build/download.sh"
+  status = 200
